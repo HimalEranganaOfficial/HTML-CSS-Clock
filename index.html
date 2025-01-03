@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Clock, time, watch, Digital CLock" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HTML+CSS Clock ⏰✨ Minimalistic digital clock with customizable themes. 🎨 Explore diverse styles & contribute!">
+    <meta name="theme-color" content="auto"> <!--Here needs a work... ;-(
+    I couldn't figure-out a way to change the theme color according to webpage background color, in Supported browsers.)-->
+    <meta http-equiv="refresh" content="1"> <!--This is the part that do the real magic without JS...
+    This simple line can re-fresh the website every 1 seconds-->
+    <title>Clock</title>
+    <link rel="icon" type="image/svg+xml" href="TItleIcon.svg">
+</head>
+<body>
+    <div id="mainC"></div>
+    <script>
+        document.getElementById('mainC').innerHTML = Date();
+    </script>
+</body>
+</html>
